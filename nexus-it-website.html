@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS IT Solution</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #1e293b, #64748b);
+            color: #fff;
+        }
+        header {
+            background-color: #0f172a;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #38bdf8;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+            color: #94a3b8;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1rem;
+            padding: 10px 15px;
+            background-color: #2563eb;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #1e40af;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://via.placeholder.com/1200x400?text=Innovative+IT+Solutions') no-repeat center;
+            background-size: cover;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .hero button {
+            background-color: #38bdf8;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .hero button:hover {
+            background-color: #0ea5e9;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        .service-card {
+            background-color: #334155;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .service-card img {
+            width: 60px;
+            margin-bottom: 15px;
+        }
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .service-card p {
+            font-size: 1rem;
+            color: #cbd5e1;
+        }
+        .about {
+            padding: 40px;
+            background-color: #1e293b;
+        }
+        .about img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 10px;
+            max-width: 300px;
+        }
+        .about h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .about p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .contact {
+            padding: 40px;
+            text-align: center;
+            background-color: #0f172a;
+        }
+        .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .contact p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact input, .contact textarea {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: #38bdf8;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact button:hover {
+            background-color: #0ea5e9;
+        }
+        footer {
+            background-color: #0f172a;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NEXUS IT Solution</h1>
+        <p>Your Partner in Technology Excellence</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Innovative IT Solutions for Your Business</h2>
+        <p>Empowering businesses with cutting-edge technology and expert support.</p>
+        <button>Get Started</button>
+    </section>
+
+    <section id="services" class="services">
+        <div class="service-card">
+            <img src="https://via.placeholder.com/60?text=Cloud" alt="Cloud Services">
+            <h3>Cloud Solutions</h3>
+            <p>Secure and scalable cloud infrastructure for your business growth.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://via.placeholder.com/60?text=Support" alt="IT Support">
+            <h3>IT Support</h3>
+            <p>Round-the-clock support to keep your business running smoothly.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://via.placeholder.com/60?text=Cyber" alt="Cyber Security">
+            <h3>Cyber Security</h3>
+            <p>Protect your data with our advanced security solutions.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://via.placeholder.com/60?text=Dev" alt="Software Development">
+            <h3>Software Development</h3>
+            <p>Custom software tailored to your business needs.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <img src="https://via.placeholder.com/300x300?text=About+Us" alt="About Us">
+        <h2>About Us</h2>
+        <p>NEXUS IT Solution is a leading provider of innovative technology services. Our mission is to empower businesses with cutting-edge IT solutions, ensuring seamless operations and robust security. With years of experience, we specialize in delivering bespoke solutions tailored to meet your unique needs.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to work with us? Get in touch!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 NEXUS IT Solution. All rights reserved.
+    </footer>
+</body>
+</html>
